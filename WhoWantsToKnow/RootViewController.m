@@ -7,6 +7,7 @@
 //
 
 #import "RootViewController.h"
+#import "AppSettings.h"
 
 @interface RootViewController ()
 
@@ -16,8 +17,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    [AppSettings sharedInstance];
 }
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:YES];
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:viewAppearedNotificationKey object:nil];
+}
+
+    
+    
+    // Do any additional setup after loading the view.
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
