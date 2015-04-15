@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+static NSString *const viewAppearedNotificationKey = @"viewAppearedNotification";
+
 @interface AppSettings : NSObject
+
++ (AppSettings *)sharedInstance;
 
 @end
