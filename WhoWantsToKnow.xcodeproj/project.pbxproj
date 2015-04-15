@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F0C1CA31ADDEA3000822D76 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C1CA21ADDEA3000822D76 /* RootViewController.m */; };
+		2F0C1CA61ADDEAC500822D76 /* AppSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C1CA51ADDEAC500822D76 /* AppSettings.m */; };
 		7141B2A5193DB2A30084F9F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7141B2A4193DB2A30084F9F1 /* Foundation.framework */; };
 		7141B2A7193DB2A30084F9F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7141B2A6193DB2A30084F9F1 /* CoreGraphics.framework */; };
 		7141B2A9193DB2A30084F9F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7141B2A8193DB2A30084F9F1 /* UIKit.framework */; };
@@ -32,6 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F0C1CA11ADDEA3000822D76 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		2F0C1CA21ADDEA3000822D76 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		2F0C1CA41ADDEAC500822D76 /* AppSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSettings.h; sourceTree = "<group>"; };
+		2F0C1CA51ADDEAC500822D76 /* AppSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppSettings.m; sourceTree = "<group>"; };
 		7141B2A1193DB2A30084F9F1 /* WhoWantsToKnow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhoWantsToKnow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7141B2A4193DB2A30084F9F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7141B2A6193DB2A30084F9F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -109,6 +115,10 @@
 			children = (
 				7141B2B3193DB2A30084F9F1 /* AppDelegate.h */,
 				7141B2B4193DB2A30084F9F1 /* AppDelegate.m */,
+				2F0C1CA11ADDEA3000822D76 /* RootViewController.h */,
+				2F0C1CA21ADDEA3000822D76 /* RootViewController.m */,
+				2F0C1CA41ADDEAC500822D76 /* AppSettings.h */,
+				2F0C1CA51ADDEAC500822D76 /* AppSettings.m */,
 				7141B2B6193DB2A30084F9F1 /* Images.xcassets */,
 				7141B2AB193DB2A30084F9F1 /* Supporting Files */,
 			);
@@ -241,6 +251,8 @@
 			files = (
 				7141B2B5193DB2A30084F9F1 /* AppDelegate.m in Sources */,
 				7141B2B1193DB2A30084F9F1 /* main.m in Sources */,
+				2F0C1CA61ADDEAC500822D76 /* AppSettings.m in Sources */,
+				2F0C1CA31ADDEA3000822D76 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +449,7 @@
 				7141B2CF193DB2A30084F9F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7141B2D0193DB2A30084F9F1 /* Build configuration list for PBXNativeTarget "WhoWantsToKnowTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +458,7 @@
 				7141B2D2193DB2A30084F9F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
